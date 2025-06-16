@@ -1,0 +1,159 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+
+img {
+    width: 346px;
+    height: 100px;
+    margin-right: 1px;
+}
+
+.informacion {
+    margin-right: 20px;
+    font-size: 18px;
+    font-style: italic;
+}
+ul.informacion {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+li.informacion a {
+    text-decoration: none;
+    color: rgb(5, 82, 121);
+    font-style: italic;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+li.informacion a:hover {
+    color: darkblue;
+}
+.contenedor {
+    display: flex;
+    align-items: center; /* centra verticalmente */
+    gap: 20px;           /* espacio entre cuadro y texto */
+    max-width: 900px;
+    margin: 40px auto;   /* centro horizontal y margen arriba/abajo */
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.postre {
+    width: 509px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+    margin: 132px;
+    margin-left: 12%;
+    
+    
+}
+
+.postre img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.Descripcion {
+    font-size: 18px;
+    font-style: italic;
+    max-width: 550px;
+    margin-left: 51%;
+    margin-top: -746px;
+    border: 2px solid #ddd;
+    font-size: xx-large;
+}
+
+.boton{
+    width: 200px;
+    margin-left: 51%;
+    margin-top: 131px;
+    text-decoration: none;
+    border-radius: 10%;
+    transform: scale(2.2);
+    font-style: italic;
+}
+
+.boton2{
+    width: 900px;
+    margin-left: 51%;
+    margin-top: -20px;
+    text-decoration: none;
+    border-radius: 10%;
+    transform: scale(2.2);
+    font-style: italic;
+}
+
+footer {
+    margin-top: 111px;
+    background-color: #f2e6d9;
+    padding: 10px;
+    
+    
+}
+.Precio{
+    background-color: rgb(236, 115, 58);
+    padding: 10px;
+    transform: scale(1.1);
+    width: 322px;
+    border-radius: 10%;
+    margin-left: 56%;
+    margin-top: -114px;
+    border: 3px solid #ddd;
+}
+
+footer {
+  background-color: #f2e6d9;
+  padding: 30px 10px;
+  border-top: 2px solid #e0d0c0;
+  font-size: 14px;
+}
+footer h5 {
+  color: #6b4e3d;
+  font-weight: bold;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  z-index: 999;
+  transition: transform 0.3s ease;
+  padding: 10px;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  background-color: #1ebd5a;
+}
+
+.whatsapp-float .whatsapp-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
